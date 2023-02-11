@@ -42,11 +42,11 @@ function RecipeApp() {
             variant="contained"
             color="primary"
           >
-            Edit Recepy
+            Edit Recipe
           </Button>
         ) : (
           <Button onClick={handleAddRecipe} variant="contained" color="primary">
-            Add Recepy
+            Add Recipe
           </Button>
         )}
       </Grid>

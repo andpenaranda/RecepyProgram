@@ -3,7 +3,7 @@ import { Stack } from "@mui/system";
 
 import useViewModel from "./ViewModel";
 
-function RecipeApp() {
+export const RecipeApp = () => {
   const {
     handleAddRecipe,
     handleDeleteRecipe,
@@ -87,5 +87,3 @@ function RecipeApp() {
     </Stack>
   );
 }
-
-export default RecipeApp;

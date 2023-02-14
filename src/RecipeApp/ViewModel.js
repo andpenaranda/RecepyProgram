@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { recipesConstants } from "../Constants/Recipes";
 
-export default function RecipeViewModel() {
+const RecipeViewModel = () => {
   const [recipeIngredients, setRecipeIngredients] = useState("");
   const [recipeName, setRecipeName] = useState("");
   const [recipes, setRecipes] = useState(recipesConstants);
@@ -71,3 +71,5 @@ export default function RecipeViewModel() {
     selectedRecipeId,
   };
 }
+
+export default RecipeViewModel;
